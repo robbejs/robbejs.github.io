@@ -30,7 +30,7 @@
 }
 
 .twp-menu-icon:hover button {
-    display: none;
+    opacity: 0;
 }
 
 .main-menu {
@@ -155,6 +155,12 @@ th{
     width: 100%;
     height: 2.5rem;
     background: black;
+    bottom: 0;
+    position: fixed;
+}
+
+.twp-page-content{
+    padding-bottom: 40px;
 }
 
 div div div h3{
@@ -178,10 +184,6 @@ div div div h3{
 
 #pdf{
     height: 100%;
-}
-
-#pdfSection{
-    padding:50px 0 0 0;
 }
 
 .elementor-widget-container{
@@ -212,6 +214,27 @@ div div div h3{
     overflow-y:hidden;
 }
 
+#cvFoto{
+    width: 60%;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.elementor-317 .elementor-element.elementor-element-65a3d4a6 > .elementor-element-populated{
+    padding: 0px 20px 0px 40px;
+}
+
+
+input{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .no-touch .scrollable.hover:hover {
     overflow-y:auto;
     overflow:visible;
@@ -221,8 +244,9 @@ a:hover,a:focus {
     text-decoration:none;
 }
 
-.elementor-section{
+.elementor-inner .elementor-section-wrap .elementor-section{
     min-height: 100vh;
+    padding:50px 0 0 0 !important;
 }
 
 nav {
